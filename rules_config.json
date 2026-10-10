@@ -1,0 +1,17 @@
+{
+  "thresholds": {
+    "wide_table_columns": 40,
+    "calculated_columns_per_table": 5,
+    "large_column_mb": 25,
+    "very_large_column_mb": 100,
+    "large_dictionary_mb": 15,
+    "very_large_dictionary_mb": 60,
+    "large_table_mb": 250,
+    "very_large_table_mb": 1000,
+    "high_cardinality_min_rows": 100000,
+    "high_cardinality_ratio": 0.8,
+    "exact_cardinality_top_n": 25,
+    "exact_cardinality_timeout_seconds": 90,
+    "dax_long_chars": 2500
+  }
+}
